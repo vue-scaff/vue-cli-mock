@@ -1,0 +1,215 @@
+{
+  "authorized": {
+    "listPlanDetailComOrManageDto": [
+      {
+        "pid": "0",
+        "id": "1",
+        "level": "0",
+        "name": "公司",
+        "children": [
+          {
+            "pid": "1",
+            "id": "2",
+            "level": "1",
+            "name": "组织1",
+            "children": [
+              {
+                "pid": "2",
+                "id": "3",
+                "level": "2",
+                "name": "职位2.1",
+                "listPlanDetailTermDto": [
+                  {
+                    "planNum": 40
+                  },
+                  {
+                    "planNum": 30
+                  }
+                ]
+              },
+              {
+                "pid": "2",
+                "id": "4",
+                "level": "2",
+                "name": "职位2.2",
+                "listPlanDetailTermDto": [
+                  {
+                    "planNum": 20
+                  },
+                  {
+                    "planNum": 10
+                  }
+                ]
+              }
+            ],
+            "listPlanDetailTermDto": [
+              {
+                "planNum": 0
+              },
+              {
+                "planNum": 0
+              }
+            ]
+          },
+          {
+            "pid": "1",
+            "id": "5",
+            "level": "1",
+            "name": "组织2",
+            "children": [
+              {
+                "pid": "5",
+                "id": "6",
+                "level": "2",
+                "name": "职位5.1",
+                "listPlanDetailTermDto": [
+                  {
+                    "planNum": 50
+                  },
+                  {
+                    "planNum": 20
+                  }
+                ]
+              },
+              {
+                "pid": "5",
+                "id": "7",
+                "level": "2",
+                "name": "职位5.2",
+                "listPlanDetailTermDto": [
+                  {
+                    "planNum": 70
+                  },
+                  {
+                    "planNum": 80
+                  }
+                ]
+              }
+            ],
+            "listPlanDetailTermDto": [
+              {
+                "planNum": 0
+              },
+              {
+                "planNum": 0
+              }
+            ]
+          }
+        ],
+        "listPlanDetailTermDto": [
+          {
+            "planNum": 0
+          },
+          {
+            "planNum": 0
+          }
+        ]
+      },
+      {
+        "pid": "0",
+        "id": "11",
+        "level": "0",
+        "name": "公司",
+        "children": [
+          {
+            "pid": "11",
+            "id": "12",
+            "level": "1",
+            "name": "组织1",
+            "children": [
+              {
+                "pid": "12",
+                "id": "13",
+                "level": "2",
+                "name": "职位2.1",
+                "listPlanDetailTermDto": [
+                  {
+                    "planNum": 15
+                  },
+                  {
+                    "planNum": 25
+                  }
+                ]
+              },
+              {
+                "pid": "12",
+                "id": "14",
+                "level": "2",
+                "name": "职位2.2",
+                "listPlanDetailTermDto": [
+                  {
+                    "planNum": 35
+                  },
+                  {
+                    "planNum": 55
+                  }
+                ]
+              }
+            ],
+            "listPlanDetailTermDto": [
+              {
+                "planNum": 0
+              },
+              {
+                "planNum": 0
+              }
+            ]
+          },
+          {
+            "pid": "11",
+            "id": "15",
+            "level": "1",
+            "name": "组织2",
+            "children": [
+              {
+                "pid": "15",
+                "id": "16",
+                "level": "2",
+                "name": "职位5.1",
+                "listPlanDetailTermDto": [
+                  {
+                    "planNum": 1020
+                  },
+                  {
+                    "planNum": 1200
+                  }
+                ]
+              },
+              {
+                "pid": "15",
+                "id": "17",
+                "level": "2",
+                "name": "职位5.2",
+                "listPlanDetailTermDto": [
+                  {
+                    "planNum": 2040
+                  },
+                  {
+                    "planNum": 6020
+                  }
+                ]
+              }
+            ],
+            "listPlanDetailTermDto": [
+              {
+                "planNum": 0
+              },
+              {
+                "planNum": 0
+              }
+            ]
+          }
+        ],
+        "listPlanDetailTermDto": [
+          {
+            "planNum": 0
+          },
+          {
+            "planNum": 0
+          }
+        ]
+      }
+    ],
+    "listTitle": ["2019年度4月份", "2019年度5月份"]
+  }
+}

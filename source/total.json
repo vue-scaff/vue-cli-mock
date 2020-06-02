@@ -1,0 +1,50 @@
+{
+  "total": [
+    {
+      "name": "A",
+      "value": false,
+      "children": [
+        {
+          "name": "A-A",
+          "value": false,
+          "children": [
+            {
+              "name": "A-A-A",
+              "value": 40
+            }
+          ]
+        },
+        {
+          "name": "A-B",
+          "value": false,
+          "children": [
+            {
+              "name": "A-B-A",
+              "value": 60
+            },
+            {
+              "name": "A-B-B",
+              "value": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "value": 11,
+      "children": [
+        {
+          "name": "B-A",
+          "value": 22,
+          "children": [
+            {
+              "name": "B-A-A",
+              "value": 33
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

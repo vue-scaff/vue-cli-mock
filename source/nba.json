@@ -1,0 +1,100 @@
+{
+  "dream": [
+    {
+      "key": "1",
+      "no": "4",
+      "name": "Christian Laettner",
+      "cn": "克里斯蒂安·莱特纳",
+      "team": "杜克大学",
+      "pos": "大前锋"
+    },
+    {
+      "key": "2",
+      "no": "5",
+      "name": "David Robinson",
+      "cn": "大卫·罗宾逊",
+      "team": "圣安东尼奥马刺",
+      "pos": "中锋"
+    },
+    {
+      "key": "3",
+      "no": "6",
+      "name": "Patrick Ewing",
+      "cn": "帕特里克·尤因",
+      "team": "纽约尼克斯",
+      "pos": "中锋"
+    },
+    {
+      "key": "4",
+      "no": "7",
+      "name": "Larry Bird",
+      "cn": "拉里·伯德",
+      "team": "波士顿凯尔特人",
+      "pos": "小前锋"
+    },
+    {
+      "key": "5",
+      "no": "8",
+      "name": "Scottie Pippen",
+      "cn": "斯科蒂·皮蓬",
+      "team": "芝加哥公牛",
+      "pos": "小前锋"
+    },
+    {
+      "key": "6",
+      "no": "9",
+      "name": "Michael Jordan",
+      "cn": "迈克尔·乔丹",
+      "team": "芝加哥公牛",
+      "pos": "得分后卫"
+    },
+    {
+      "key": "7",
+      "no": "10",
+      "name": "Clyde Drexler",
+      "cn": "克莱德·德雷克斯勒",
+      "team": "波特兰开拓者",
+      "pos": "得分后卫"
+    },
+    {
+      "key": "8",
+      "no": "11",
+      "name": "Karl Malone",
+      "cn": "卡尔·马龙",
+      "team": "犹他爵士",
+      "pos": "大前锋"
+    },
+    {
+      "key": "9",
+      "no": "12",
+      "name": "John Stockton",
+      "cn": "约翰·斯托克顿",
+      "team": "犹他爵士",
+      "pos": "控球后卫"
+    },
+    {
+      "key": "10",
+      "no": "13",
+      "name": "Chris Mullin",
+      "cn": "克里斯·穆林",
+      "team": "金州勇士",
+      "pos": "小前锋"
+    },
+    {
+      "key": "11",
+      "no": "14",
+      "name": "Charles Barkley",
+      "cn": "查尔斯·巴克利",
+      "team": "菲尼克斯太阳",
+      "pos": "大前锋"
+    },
+    {
+      "key": "12",
+      "no": "15",
+      "name": "Earvin Johnson",
+      "cn": "埃尔文·约翰逊",
+      "team": "洛杉矶湖人",
+      "pos": "控球后卫"
+    }
+  ]
+}
