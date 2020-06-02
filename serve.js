@@ -2,7 +2,7 @@
 require("console-color-mr");
 
 // Argv
-const argv = require("cross-env-argv")(process);
+const { argvs } = require("process-env-argv");
 
 // FS
 const fs = require("fs");
@@ -20,7 +20,10 @@ const router = require("koa-router");
 const mock = require("mockjs");
 
 // Default Port
-argv.port = argv.port || 3000;
+argvs.port = argvs.port || 3000;
+
+// Default Path
+argvs.path = argvs.path || "./source";
 
 // App
 const App = new koa();
@@ -37,7 +40,7 @@ App.use(async ctx => {
     // Set Routes
     let routes = fs
       // Read Json
-      .readdirSync(`./source`)
+      .readdirSync(argvs.path)
       // Filter Unrelated
       .filter(r => !/^\./.test(r))
       // Processing
@@ -58,12 +61,14 @@ App.use(async ctx => {
     ctx.type = "html";
 
     // Set Response Body
-    return (ctx.body = `<!doctype html><html><head><meta charset="utf-8"></head><body>${routes}</body></html>`);
+    return (ctx.body = fs
+      .readFileSync(`./template.html`, "utf8")
+      .replace(/{{ routes }}/, routes));
   }
 
   // Get Mock Json
   ctx.body = mock.mock(
-    JSON.parse(fs.readFileSync(`./source/${ctx.path}.json`, "utf8"))
+    JSON.parse(fs.readFileSync(`${argvs.path}/${ctx.path}.json`, "utf8"))
   );
 });
 
@@ -71,8 +76,8 @@ App.use(async ctx => {
 App.use(Page.routes()).use(Page.allowedMethods());
 
 // Listen Port
-App.listen(argv.port, () =>
+App.listen(argvs.port, () =>
   console.log(
-    `vue-scaff mock is running at: ` + `http://localhost:${argv.port}/`.cyan
+    `vue-scaff mock is running at: ` + `http://localhost:${argvs.port}/`.cyan
   )
 );

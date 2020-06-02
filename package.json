@@ -4,7 +4,7 @@
   "description": "Support `vue-scaff` to data debugging",
   "main": "index.js",
   "scripts": {
-    "serve": "cross-env node ./serve.js"
+    "serve": "cross-env node serve.js"
   },
   "dependencies": {
     "@koa/cors": "^3.0.0",
@@ -13,7 +13,8 @@
     "cross-env-argv": "^1.0.5",
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
-    "mockjs": "^1.1.0"
+    "mockjs": "^1.1.0",
+    "process-env-argv": "^1.0.3"
   },
   "author": "joenix",
   "license": "MIT"
